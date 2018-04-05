@@ -13,6 +13,23 @@ df1 <- df[1:n,]
 
 **based on variable values - and** <br />
 df1 <- df[ which(df$gender=='F' & df$age > 65), ]
-
 **or** <br />
 df1 <- df[ which(gender=='F' | age > 65),]
+
+**Merge Data Frames**
+**merge two data frames by multiple variables** <br />
+**Inner Join** <br />
+total <- merge(data frameA,data frameB,by=c("ID","Country"))
+
+**Outer join** <br /> 
+merge(x = df1, y = df2, by = "CustomerId", all = TRUE)
+
+**Left outer** <br />
+merge(x = df1, y = df2, by = "CustomerId", all.x = TRUE)
+
+**Right outer** <br />
+merge(x = df1, y = df2, by = "CustomerId", all.y = TRUE)
+
+**Cross join** <br />
+merge(x = df1, y = df2, by = NULL)
+
