@@ -74,4 +74,4 @@ as.data.frame() <br />
 strDates <- c("01/05/1965", "08/16/1975")
 dates <- as.Date(strDates, "%m/%d/%Y")
 
-[Date Conversions](https://www.statmethods.net/input/dates.html/)
+**GO TO** https://www.statmethods.net/input/
