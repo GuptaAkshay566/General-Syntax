@@ -33,3 +33,13 @@ Upper <- round(m1 + 1.96*interim, digits = 1)
 **Quantile**
 quantile(x, probs = seq(0, 1, 0.25), na.rm = FALSE) <br />
 
+**Correlation**
+cor(df) <br \>
+
+# Charts and Visualization
+
+**Box Plot**
+
+**Histogram**
+
+**Scatter Plot**
