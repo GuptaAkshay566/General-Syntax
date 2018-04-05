@@ -37,13 +37,13 @@ right_join(x, y, by = NULL, copy = FALSE, ...)
 merge(x = df1, y = df2, by = NULL)
 
 # sort data frame
-**sort by a column**
+**sort by a column** <br />
 df1 <- df[order(col1),]
 
-**sort by multiple columns** 
+**sort by multiple columns** <br /> 
 df1 <- df[order(col1, col2),]
 
-**sort by col1 (ascending) and col2 (descending)**
+**sort by col1 (ascending) and col2 (descending)** <br />
 df1 <- df[order(col1, -col2),]
 
 **Aggregating Data** <br />
@@ -52,23 +52,23 @@ aggdata <- aggregate(df, by=list(Col1, Col2), FUN=mean, na.rm=TRUE)
 ddply(dt,~group,summarise,mean=mean(col1),sd=sd(col1))
 
 # Reshaping
-library(reshape)
-md <- melt(mydata, id=(c("Col1", "Col2")))
+library(reshape) <br />
+md <- melt(mydata, id=(c("Col1", "Col2"))) <br />
 
 # Data Type Conversion
-**Check Data Type**
-is.numeric()
-is.character()
-is.vector()
-is.matrix()
-is.data.frame()
+**Check Data Type** <br />
+is.numeric() <br />
+is.character() <br />
+is.vector() <br />
+is.matrix() <br />
+is.data.frame() <br />
 
-**Change Data Type**
-as.numeric()
-as.character()
-as.vector()
-as.matrix()
-as.data.frame()
+**Change Data Type** <br />
+as.numeric() <br />
+as.character() <br />
+as.vector() <br />
+as.matrix() <br />
+as.data.frame() <br />
 
 
 
