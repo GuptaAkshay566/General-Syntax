@@ -70,5 +70,8 @@ as.vector() <br />
 as.matrix() <br />
 as.data.frame() <br />
 
+# convert date info in format 'mm/dd/yyyy'
+strDates <- c("01/05/1965", "08/16/1975")
+dates <- as.Date(strDates, "%m/%d/%Y")
 
-
+[Date Conversions](https://www.statmethods.net/input/dates.html/)
